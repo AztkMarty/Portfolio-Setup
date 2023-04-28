@@ -28,7 +28,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio Setup Mobile V] <a name="about-project"></a>
+# 📖 Portfolio Setup Mobile V <a name="about-project"></a>
 
 **Portfolio Setup Mobile V** This is a proyect for a mobile version of a portfolio webside. It includes a Header Section with menu icon, a main content section with information about the developer and their skills, and a social media icons section
 
