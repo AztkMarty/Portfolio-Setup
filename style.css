@@ -70,6 +70,7 @@ body {
 
 .menu-box {
   display: flex;
-  justify-content: center;
-  margin-top: 0.7rem;
+  justify-content: right;
+  margin-top: 3.8rem;
+  margin-right: 2rem;
 }
