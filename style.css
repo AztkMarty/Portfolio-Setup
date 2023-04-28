@@ -44,6 +44,7 @@ p {
 
 /* Container */
 .social-media {
+  list-style: none;
   display: flex;
   flex-direction: row;
   gap: 3px;
@@ -65,4 +66,10 @@ body {
   background-position-y: -180%;
   background-position-x: center;
   background-size: 381px;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
 }
