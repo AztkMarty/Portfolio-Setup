@@ -47,11 +47,11 @@ p {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 20px;
   margin-top: 20px;
   padding: 0 1rem;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 /* BODY SECTION */
@@ -63,7 +63,7 @@ body {
   margin: auto;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: -180%;
+  background-position-y: -55%;
   background-position-x: center;
   background-size: 381px;
 }
@@ -71,6 +71,6 @@ body {
 .menu-box {
   display: flex;
   justify-content: right;
-  margin-top: 3.8rem;
+  margin-top: 2rem;
   margin-right: 2rem;
 }
