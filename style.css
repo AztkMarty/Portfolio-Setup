@@ -177,7 +177,7 @@ body {
   padding: 8px 12px;
   border-radius: 0.2rem;
   background-color: #ebf0ee;
-  ;
+  
 }
 
 .button {
@@ -413,14 +413,13 @@ textarea {
 
 .items {
   color: #36b37e;
-  ;
+  
   padding: 8px 12px;
   background-color: white;
   border-radius: 2px;
 }
 
 .figure1 {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -429,9 +428,6 @@ textarea {
   left: 150px;
   margin-left: auto;
   margin-right: auto;
-  
-  
-  
 }
 
 .figure2 {
@@ -442,8 +438,9 @@ textarea {
   top: 4270px;
   margin-right: auto;
   margin-left: auto;
-  /*left: 10%;
-  transform: translate(-50%, -50%);*/
+
+  /* left: 10%;
+  transform: translate(-50%, -50%); */
 }
 
 .figure3 {
@@ -452,10 +449,11 @@ textarea {
   align-items: center;
   position: relative;
   top: 5465px;
-  margin-right: 0px;
+  margin-right: 0;
   margin-left: auto;
-  /*right: 25%;
-  transform: translate(-50%, -50%);*/
+
+  /* right: 25%;
+  transform: translate(-50%, -50%); */
 }
 
 @font-face {
