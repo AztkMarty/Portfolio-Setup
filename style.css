@@ -344,7 +344,7 @@ form {
   align-items: center;
   width: 327px;
   position: absolute;
-  top: 6250px;
+  top: 6280px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #42526e;
@@ -451,4 +451,17 @@ textarea {
 @font-face {
   font-family: 'Inter-for-Microverse';
   src: url('inter.ttf') format('truetype');
+}
+
+.form-container ul {
+  padding-left: 0;
+  width: 100%;
+}
+
+.form-container input {
+  font-size: 20px;
+}
+textarea {
+  height: 80px;
+  font-size: 20px;
 }
