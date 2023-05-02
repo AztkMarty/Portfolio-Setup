@@ -436,9 +436,6 @@ textarea {
   top: 4270px;
   margin-right: auto;
   margin-left: auto;
-
-  /* left: 10%;
-  transform: translate(-50%, -50%); */
 }
 
 .figure3 {
@@ -447,11 +444,8 @@ textarea {
   align-items: center;
   position: relative;
   top: 5465px;
-  margin-right: 0;
+  margin-right: 0.1px;
   margin-left: auto;
-
-  /* right: 25%;
-  transform: translate(-50%, -50%); */
 }
 
 @font-face {
