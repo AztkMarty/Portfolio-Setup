@@ -456,11 +456,13 @@ textarea {
 .form-container ul {
   padding-left: 0;
   width: 100%;
+  list-style: none;
 }
 
 .form-container input {
   font-size: 20px;
 }
+
 textarea {
   height: 80px;
   font-size: 20px;
