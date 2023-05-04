@@ -237,16 +237,16 @@
     <section>
         <img class="figure3" src="images/figure3.png" alt="Figure" width="65px" height="131px">
     </section>
-    <form class="form-container">
+    <form class="form-container" action="https://formspree.io/f/xdovbzev" method="post" >
         <ul>
             <li>
-                <input type="text" id="name" name="name" placeholder="Full name...">
+                <input type="text" id="name" name="name" placeholder="Full name..." maxlength="30" required>
             </li>
             <li>
-                <input type="email" id="email" name="email" placeholder="Email address...">
+                <input type="email" id="email" name="email" placeholder="Email address..." required>
             </li>
             <li>
-                <textarea id="comments" name="comments" placeholder="Hey id'like to connect you..."></textarea>
+                <textarea id="comments" name="comments" placeholder="Hey id'like to connect you..." maxlength="500" required></textarea>
             </li>
         </ul>
         <button class="send" type="submit">Get in touch</button>
