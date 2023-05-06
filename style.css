@@ -1,6 +1,7 @@
 /* --GENERAL SHAPE --*/
 body {
-  margin: auto;
+  margin: 0;
+  width: 100%;
 }
 
 @font-face {
@@ -79,6 +80,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.social2 {
+  padding-bottom: 24px;
+  margin: auto;
+}
+
 /* --ARROW ICON-- */
 .little-arrow {
   position: absolute;
@@ -161,7 +168,6 @@ align-items: center;
   text-align: center;
   color:#172b4d;
   line-height: 52px;
-  margin-top: 200px;
 }
 
 .textaboutme {
@@ -174,9 +180,33 @@ align-items: center;
 
 /* GET MY RESUME BUTTON */
 .button-holder2 {
+  font: 600 40px "Inter", sans-serif;
+  text-align: center;
+  line-height: 24px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+.button-holder3 {
+  font: 600 40px "Inter", sans-serif;
+  text-align: center;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  align-items: flex-start;
+}
+
+.button3 {
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  padding: 12px 12px;
+  border-radius: 0.5rem;
+  background-color: #36b37f;
+  text-decoration: none;
+  display: flex;
 }
 
 .button2 {
@@ -184,15 +214,11 @@ align-items: center;
   color: white;
   font-size: 17px;
   padding: 12px 12px;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   background-color: #36b37f;
   text-decoration: none;
 }
 
-a {
-  height: 48px;
-  width: 153px;
-}
 
 /* CARD WORK LINE */
 .about-container {
@@ -213,7 +239,7 @@ a {
   align-items: center;
   border: 1px solid #ccc;
   padding: 20px;
-  width: 327px;
+  width: 369px;
   height: 316px;
 }
 
@@ -263,39 +289,156 @@ a {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  padding-top: 60px;
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+.frame-p p {
+  width: 463px;
+  height: 256px;
 }
 
 .frame-regist {
-  display: flex;
+  display: grid;
   margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 1185px;
 }
 
 
 .frame-form {
-  flex: 1;
-  display: flex;
+  padding-top: 1px;
   position: relative;
-  gap: 24px;
-  list-style: none;
+  right: 40px;
 }
 
 .names {
-  list-style: none;
+  display: flex;
+  gap: 14px;
 }
 
-.email {
-  list-style: none;
-}
 
 .frame-form textarea {
-  list-style: none;
-  height: 80px;
-  font-size: 20px;
+  height: 114px;
   display: flex;
-  width: 385px;
+  width: 684px;
   justify-content: end;
-  gap: 24px;
-  margin: auto;
   font-size: 20px;
+  font-size: 15px;
 }
 
+.frame-form #email {
+  display: flex;
+  width: 684px;
+  height: 48px;
+  justify-content: end;
+  font-size: 15px;
+}
+
+.frame-form #lastname {
+  display: flex;
+  width: 330px;
+  height: 48px;
+  font-size: 15px;
+}
+
+.frame-form #firstname {
+  display: flex;
+  width: 330px;
+  height: 48px;
+  font-size: 15px;
+}
+
+.frame-form li {
+  list-style: none;
+}
+
+/* CARD WORK LINE */
+#email {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#lastname {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#firstname {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#comments {
+  margin: auto;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.figure-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.figure1 {
+  position: relative;
+  right: 700px;
+  top: 530px;
+}
+.figure-holder-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.figure2 {
+  position: relative;
+  top: 210px;
+  left: 700px;
+  
+}
+
+.figure-holder-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.figure3 {
+  position: relative;
+  right: 400px;
+  bottom: 200px;
+}
+.figure-holder-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.figure4 {
+  position: relative;
+  right: 690px;
+  bottom: 150px;
+}
+
+.figure-holder-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.figure5 {
+  position: relative;
+  width: 285px;
+  height: 448px;
+  left: 580px;
+  bottom: 300px;
+  
+}
+
+.figure-holder-5 {
+  display: flex;
+  justify-content: center;
+}
