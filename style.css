@@ -1,4 +1,4 @@
-/* --GENERAL SHAPE --*/
+/* --GENERAL SHAPE -- */
 body {
   margin: 0;
   width: 100%;
@@ -8,13 +8,15 @@ body {
   font-family: 'Inter-for-Microverse';
   src: url('inter.ttf') format('truetype');
 }
+
 /* --NAVIGATION MENU-- */
+
 .direction {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 20px;
-  color: #172B4D;
+  color: #172b4d;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
 }
@@ -39,7 +41,7 @@ body {
   font: 800 48px/60px "Inter", sans-serif;
   letter-spacing: 0.37px;
   text-align: center;
-  color: #36B37E;
+  color: #36b37e;
   margin: auto;
 }
 
@@ -95,11 +97,12 @@ body {
 }
 
 /* --RECENT WORK SECTION-- */
-.my-recent-work{
+
+.my-recent-work {
   display: block;
   font: 800 40px "Inter", sans-serif;
   text-align: center;
-  color:#172b4d;
+  color: #172b4d;
   line-height: 52px;
   margin-top: 700px;
 }
@@ -109,7 +112,7 @@ body {
 .card-work-row {
   display: grid;
   justify-content: center;
-align-items: center;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   width: 1155px;
@@ -166,7 +169,7 @@ align-items: center;
   display: block;
   font: 800 40px "Inter", sans-serif;
   text-align: center;
-  color:#172b4d;
+  color: #172b4d;
   line-height: 52px;
 }
 
@@ -219,7 +222,6 @@ align-items: center;
   text-decoration: none;
 }
 
-
 /* CARD WORK LINE */
 .about-container {
   display: flex;
@@ -230,6 +232,7 @@ align-items: center;
   width: 1155px;
   padding-top: 150px;
 }
+
 .card-about {
   display: flex;
   justify-content: space-evenly;
@@ -307,7 +310,6 @@ align-items: center;
   width: 1185px;
 }
 
-
 .frame-form {
   padding-top: 1px;
   position: relative;
@@ -319,7 +321,6 @@ align-items: center;
   gap: 14px;
 }
 
-
 .frame-form textarea {
   height: 114px;
   display: flex;
@@ -327,6 +328,12 @@ align-items: center;
   justify-content: end;
   font-size: 20px;
   font-size: 15px;
+}
+
+#email {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
 }
 
 .frame-form #email {
@@ -337,11 +344,23 @@ align-items: center;
   font-size: 15px;
 }
 
+#lastname {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
 .frame-form #lastname {
   display: flex;
   width: 330px;
   height: 48px;
   font-size: 15px;
+}
+
+#firstname {
+  margin: auto;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
 }
 
 .frame-form #firstname {
@@ -356,23 +375,6 @@ align-items: center;
 }
 
 /* CARD WORK LINE */
-#email {
-  margin: auto;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-}
-
-#lastname {
-  margin: auto;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-}
-
-#firstname {
-  margin: auto;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-}
 
 #comments {
   margin: auto;
@@ -386,11 +388,13 @@ align-items: center;
   align-items: center;
   justify-content: center;
 }
+
 .figure1 {
   position: relative;
   right: 700px;
   top: 530px;
 }
+
 .figure-holder-1 {
   display: flex;
   justify-content: center;
@@ -400,7 +404,6 @@ align-items: center;
   position: relative;
   top: 210px;
   left: 700px;
-  
 }
 
 .figure-holder-2 {
@@ -413,6 +416,7 @@ align-items: center;
   right: 400px;
   bottom: 200px;
 }
+
 .figure-holder-3 {
   display: flex;
   justify-content: center;
@@ -435,7 +439,6 @@ align-items: center;
   height: 448px;
   left: 580px;
   bottom: 300px;
-  
 }
 
 .figure-holder-5 {
