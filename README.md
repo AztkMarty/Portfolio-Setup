@@ -3,7 +3,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Setup Mobile V</b></h3>
+  <h3><b>Portfolio Setup Desktop V</b></h3>
 
 </div>
 
