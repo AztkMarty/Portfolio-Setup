@@ -252,11 +252,16 @@ a {
 
 .frame-p {
   flex: 1;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
 }
 
 .frame-regist {
   display: flex;
-  justify-content: flex-start;
+  margin: auto;
 }
 
 
@@ -287,3 +292,4 @@ a {
   margin: auto;
   font-size: 20px;
 }
+
