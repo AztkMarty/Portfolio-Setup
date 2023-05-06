@@ -344,7 +344,7 @@ form {
   align-items: center;
   width: 327px;
   position: absolute;
-  top: 6250px;
+  top: 6280px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #42526e;
@@ -436,9 +436,6 @@ textarea {
   top: 4270px;
   margin-right: auto;
   margin-left: auto;
-
-  /* left: 10%;
-  transform: translate(-50%, -50%); */
 }
 
 .figure3 {
@@ -447,14 +444,26 @@ textarea {
   align-items: center;
   position: relative;
   top: 5465px;
-  margin-right: 0;
+  margin-right: 0.1px;
   margin-left: auto;
-
-  /* right: 25%;
-  transform: translate(-50%, -50%); */
 }
 
 @font-face {
   font-family: 'Inter-for-Microverse';
   src: url('inter.ttf') format('truetype');
+}
+
+.form-container ul {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.form-container input {
+  font-size: 20px;
+}
+
+textarea {
+  height: 80px;
+  font-size: 20px;
 }
