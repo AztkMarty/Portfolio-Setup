@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 2442px) {
+@media only screen and (min-width: 375px) and (max-width: 2442px) {
   /* --GENERAL SHAPE -- */
   body {
     margin: 0;
@@ -76,6 +76,7 @@
 
   .header a {
     text-decoration: none;
+    color: #344563;
   }
 
   /* --SOCIAL MEDIA ICONS-- */
@@ -263,7 +264,9 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+}
 
+@media only screen and (min-width: 375px) and (max-width: 1800px) {
   /* CARD WORK LINE */
   .about-container {
     display: flex;
@@ -415,9 +418,10 @@
   .frame-form li {
     list-style: none;
   }
+}
 
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
   /* CARD WORK LINE */
-
   #comments {
     margin: auto;
     border: 1px solid #60c095;
