@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 
 
 Bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/AztkMarty/Portfolio-Setup.git
 
 Navigate to your proyect directory
 -cd yourProyect-
