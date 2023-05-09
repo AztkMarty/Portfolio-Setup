@@ -374,6 +374,15 @@ textarea {
   transition: background-color 0.2s;
 }
 
+.changeScale {
+  transition: transform 1s;
+}
+
+.changeScale:hover {
+  transform: scale(1.5);
+}
+
+
 .send:hover {
   background-color: #2d8e69;
 }
