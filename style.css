@@ -25,7 +25,8 @@
   .info-desktop {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 200px;
+    align-items: center;
   }
 
   .info-desktop h1 {
@@ -58,14 +59,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 1407px;
-    width: 1442px;
+    height: 100%;
+    width: 100%;
     background-image: url(images/topfigures.svg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% 100%;
     position: absolute;
     z-index: 1;
     top: 1px;
+    max-width: 100%;
   }
 
   .header-desktop {
@@ -95,8 +97,11 @@
 
   /* --ARROW ICON-- */
   .little-arrow-desktop {
-    position: absolute;
-    top: 621px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
     left: 50%;
   }
 
@@ -120,13 +125,13 @@
     gap: 24px;
     width: 1155px;
     margin: auto;
+    max-width: 100%;
   }
 
   .card-desktop {
     border: 1px solid #d0d9d4;
     border-radius: 1rem;
     overflow: hidden;
-    width: 369px;
     height: 474px;
     cursor: pointer;
     text-align: center;
@@ -181,11 +186,14 @@
 
   /* ABOUT ME SECTION */
   .about-me-desktop {
-    display: block;
+    display: flex;
     font: 800 40px "Inter", sans-serif;
     text-align: center;
     color: #172b4d;
     line-height: 52px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
   }
 
   .textaboutme-desktop {
@@ -261,6 +269,12 @@
     transform: translateY(4px);
   }
 
+  .about-container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* CARD WORK LINE */
   .about-container-desktop {
     display: flex;
@@ -270,6 +284,7 @@
     margin: auto;
     width: 1155px;
     padding-top: 150px;
+    max-width: 100%;
   }
 
   .card-about-desktop {
@@ -347,6 +362,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     width: 1185px;
+    max-width: 100%;
   }
 
   .frame-form-desktop {
@@ -356,14 +372,15 @@
   }
 
   .names-desktop {
-    display: flex;
+    display: grid;
     gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .frame-form-desktop textarea {
     height: 114px;
     display: flex;
-    width: 684px;
+    width: 100%;
     justify-content: end;
     font-size: 20px;
     font-size: 15px;
@@ -377,7 +394,7 @@
 
   .frame-form-desktop #email-desktop {
     display: flex;
-    width: 684px;
+    width: 100%;
     height: 48px;
     justify-content: end;
     font-size: 15px;
@@ -391,7 +408,7 @@
 
   .frame-form-desktop #lastname-desktop {
     display: flex;
-    width: 330px;
+    width: 100%;
     height: 48px;
     font-size: 15px;
   }
@@ -404,7 +421,7 @@
 
   .frame-form-desktop #firstname-desktop {
     display: flex;
-    width: 330px;
+    width: 100%;
     height: 48px;
     font-size: 15px;
   }
@@ -419,17 +436,22 @@
     border-radius: 4px;
   }
 
+  .figure-container-desktop1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+
   .figure-container-desktop {
     display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   .figure1-desktop {
-    position: relative;
-    right: 700px;
-    top: 530px;
+    padding-top: 20em;
   }
 
   .figure-holder-1-desktop {
@@ -438,9 +460,8 @@
   }
 
   .figure2-desktop {
-    position: relative;
     top: 210px;
-    left: 700px;
+    left: 44em;
   }
 
   .figure-holder-2-desktop {
@@ -449,9 +470,7 @@
   }
 
   .figure3-desktop {
-    position: relative;
-    right: 400px;
-    bottom: 200px;
+    display: flex;
   }
 
   .figure-holder-3-desktop {
@@ -460,22 +479,17 @@
   }
 
   .figure4-desktop {
-    position: relative;
-    right: 690px;
-    bottom: 150px;
+    display: flex;
   }
 
   .figure-holder-4-desktop {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
   }
 
   .figure5-desktop {
-    position: relative;
-    width: 285px;
-    height: 448px;
-    left: 580px;
-    bottom: 300px;
+
   }
 
   .figure-holder-5-desktop {
@@ -497,7 +511,6 @@
     line-height: 52px;
     text-align: center;
     padding-top: 20%;
-    margin-bottom: -10%;
   }
 
   /* Subtitle */
@@ -515,20 +528,19 @@
     background-repeat: no-repeat;
     background-position-y: -10%;
     background-position-x: center;
-    background-size: 381px;
+    background-size: 100% 100%;
   }
 
   /* SUPPORT SECTION */
 
   /* Paragraph */
   .frame2 {
-    width: 327px;
+    width: 100%;
     color: #172b4d;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    margin-left: 25px;
   }
 
   /* Frame box */
@@ -562,16 +574,21 @@
 
   body {
     font-family: 'Inter-for-Microverse', sans-serif;
-    width: 381px;
+    width: 100%;
     height: 6371px;
     margin: auto;
+  }
+
+  .container-menu-box {
+    display: flex;
+    justify-content: end;
   }
 
   .menu-box {
     display: flex;
     justify-content: right;
-    margin-top: 2rem;
-    margin-right: 2rem;
+    margin-right: 18%;
+    padding-top: 40px;
   }
 
   .work-section {
@@ -688,13 +705,11 @@
   }
 
   .about-frame {
-    display: flex;
-    justify-content: end;
+    
   }
 
   .about {
     position: absolute;
-    top: 4025px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #172b4d;
@@ -705,6 +720,7 @@
     display: flex;
     justify-content: end;
     width: 300px;
+    padding-bottom: 40px;
   }
 
   .frame-about {
@@ -712,10 +728,17 @@
     justify-content: flex-end;
   }
 
+  .figures2-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+  }
+
   .frame3 {
-    width: 327px;
+    width: 100%;
     position: absolute;
-    top: 133px;
+    top: 4150px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #172b4d;
@@ -807,6 +830,7 @@
   .frame-regist {
     display: flex;
     justify-content: flex-end;
+    max-width: 100%;
   }
 
   .frame4 {
@@ -914,33 +938,25 @@
   }
 
   .figure1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 3290px;
-    left: 190px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 300px;
   }
 
   .figure2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 4270px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 250px;
   }
 
   .figure3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 5465px;
-    margin-right: 0.1px;
+    padding-bottom: 40px;
+  }
+
+  .figure3-container {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    width: 23em;
     margin-left: auto;
   }
 
