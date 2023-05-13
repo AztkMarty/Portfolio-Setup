@@ -446,7 +446,6 @@
   .figure-container-desktop {
     display: flex;
     align-items: flex-start;
-    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -486,10 +485,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-  }
-
-  .figure5-desktop {
-
   }
 
   .figure-holder-5-desktop {
@@ -702,10 +697,6 @@
 
   .button-holder {
     padding-top: 8%;
-  }
-
-  .about-frame {
-    
   }
 
   .about {
