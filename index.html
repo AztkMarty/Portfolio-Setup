@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Setup-Mobile-V</title>
+<!-- PAGE  TITLE -->
+    <title>Martin Pineda's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- Header section -->
-    <header class="menu-line">
+<!-- BACKGROUND & NAVIGATION MENU -->
+<div class="wrapper">
+
+    <header class="header-desktop menu-line">
+        <div class="top-figures-desktop">
+        </div>
+        <div class="direction-desktop">
+            <a href="!">Portfolio</a>
+            <a href="!">About</a>
+            <a href="!">Contact</a>
+        </div>
         <div>
-            <nav>
-                <a href="!" class="menu-box">
-                    <img class="menu-icon" src="images/Icon - Menu.svg">
-                </a>
+            <nav class="navbar">
+            <div class="humburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             </nav>
+
         </div>
     </header>
-    <!-- Main content section -->
-    <section id="head-line">
-        <div class="info">
-            <div class="frame box">
-                <h1 id="title">Hey there.<br>I'm Martin.</h1>
-                <h2 id="title2">I'm a software developer</h2>
-            </div>
-            <!-- Support section -->
-            <p class="frame2">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don't hesitate to contact me.
+<!-- TOP SECTION -->
+    <section class="info-desktop" id="head-line">
+        <div class="info frame">
+            <h1 id="title">Hey there.<br class="jump">I’m Martin.</h1>
+            <h2 id="title2">I’m a software<br class="jump"> developer</h2>
+            <p class="frame2">I can help you build a product, feature or website Look through some of my work and<br class="jump1"> experience! If you like what you see and have a project you need coded,<br class="jump"> 
+                    don't hesitate to contact me.
             </p>
-            <!-- Social media icons section -->
-            <ul class="social-media flex">
+            <ul class="social-media-desktop social-media">
                 <li>
                     <a href="!">
                         <img src="images/twitter.svg" alt="Twitter icon to be in contact">
@@ -57,18 +66,19 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        
+            <div>
+                  <a>
+                        <img class="little-arrow-desktop Little-arrow" src="images/icon - little arrow.svg">
+                  </a>
+           </div>
+         </div>
     </section>
-    <section>
+<!-- SOCIAL MEDIA ICONS -->
+
+    <section class="my-recent-work-desktop work-section">
         <div>
-            <a>
-                <img class="Little-arrow" src="images/icon - little arrow.svg">
-            </a>
-        </div>
-    </section>
-    <section>
-        <div class="work-section">
-            <h2>My Recent<br>Works</h2>
+            <h2>My Recent<br class="jump"> Works</h2>
         </div>
         <div>
             <i>
@@ -77,183 +87,254 @@
         </div>
     </section>
     <section>
-        <div class="card-work-row">
-            <div class="card-work-1 card">
-              <img src="images/work1.jpg" width="327" height="252" alt="Placeholder Image">
-              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-              <div class="technology-holders">
-                <div class="technology-holder">Ruby on Rails</div>
-                <div class="technology-holder">CSS</div>
-                <div class="technology-holder">JavaScript</div>
-                <div class="technology-holder">HTML</div>
-              </div>
-              <div class="button-holder">
-                    <a href="#" class="button">See Project</a>
-              </div>
-            </div>
-            <div class="card-work-2 card">
-              <img src="images/work2.jpg" width="327" height="252" alt="Placeholder Image">
-              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-              <div class="technology-holders">
-                <div class="technology-holder">Ruby on Rails</div>
-                <div class="technology-holder">CSS</div>
-                <div class="technology-holder">JavaScript</div>
-                <div class="technology-holder">HTML</div>
-              </div>
-              <div class="button-holder">
-                <a href="#" class="button">See Project</a>
-                </div>
-            </div>
-            <div class="card-work-3 card">
-              <img src="images/work3.jpg" width="327" height="252" alt="Placeholder Image">
-              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-              <div class="technology-holders">
-                <div class="technology-holder">Ruby on Rails</div>
-                <div class="technology-holder">CSS</div>
-                <div class="technology-holder">JavaScript</div>
-                <div class="technology-holder">HTML</div>
-              </div>
-              <div class="button-holder">
-                <a href="#" class="button">See Project</a>
-          </div>
-            </div>
-            <div class="card-work-4 card">
-              <img src="images/work4.jpg" width="327" height="252" alt="Placeholder Image">
-              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-              <div class="technology-holders">
-                <div class="technology-holder">Ruby on Rails</div>
-                <div class="technology-holder">CSS</div>
-                <div class="technology-holder">JavaScript</div>
-                <div class="technology-holder">HTML</div>
-              </div>
-              <div class="button-holder">
-                <a href="#" class="button">See Project</a>
-          </div>
-            </div>
-            <div class="card-work-5 card">
-                <img src="images/work5.jpg" width="327" height="252" alt="Placeholder Image">
+        <div class="card-work-row-desktop card-work-row">
+            <div class="card-desktop card-work-1 card">
+                <img src="images/work1.jpg" width="369" height="252" alt="Placeholder Image">
                 <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-                <div class="technology-holders">
-                  <div class="technology-holder">Ruby on Rails</div>
-                  <div class="technology-holder">CSS</div>
-                  <div class="technology-holder">JavaScript</div>
-                  <div class="technology-holder">HTML</div>
-                </div>
-                <div class="button-holder">
-                    <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-              <div class="card-work-6 card">
-                <img src="images/work6.jpg" width="327" height="252" alt="Placeholder Image">
-                <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
-                <div class="technology-holders">
-                  <div class="technology-holder">Ruby on Rails</div>
-                  <div class="technology-holder">CSS</div>
-                  <div class="technology-holder">JavaScript</div>
-                  <div class="technology-holder">HTML</div>
-                </div>
-                <div class="button-holder">
-                     <a href="#" class="button">See Project</a>
-                </div>
-              </div>
-          </div>
-    </section>
-    <section class="image">
-        <div></div>
-    </section>
-    <section>
-        <img class="figure1" src="images/figure1.svg" alt="Figure" width="68px" height="127px">
-    </section>
-    <section class="about-frame about">
-        <div>
-            <div class="about-box">
-                <h2>About me</h2>
+                <div class="technology-holders-desktop technology-holders">
+                <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                <div class="technology-holder-desktop technology-holder">CSS</div>
+                <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                <div class="technology-holder-desktop technology-holder">HTML</div>
+            </div>
+            <div class="button-holder-desktop button-holder">
+                <a href="#" class="button-desktop button">See Project</a>
             </div>
         </div>
+            <div class="card-desktop card-work-2 card">
+                <img src="images/work2.jpg" width="369" height="252" alt="Placeholder Image">
+                <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
+                <div class="technology-holders-desktop technology-holders">
+                <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                <div class="technology-holder-desktop technology-holder">CSS</div>
+                <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                <div class="technology-holder-desktop technology-holder">HTML</div>
+            </div>
+            <div class="button-holder-desktop button-holder">
+                <a href="#" class="button-desktop button">See Project</a>
+            </div>
+            </div>
+            <div class="card-desktop card-work-3 card">
+              <img src="images/work3.jpg" width="369" height="252" alt="Placeholder Image">
+              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
+              <div class="technology-holders-desktop technology-holders">
+                <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                <div class="technology-holder-desktop technology-holder">CSS</div>
+                <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                <div class="technology-holder-desktop technology-holder">HTML</div>
+              </div>
+              <div class="button-holder-desktop button-holder">
+                <a href="#" class="button-desktop button">See Project</a>
+          </div>
+            </div>
+            <div class="card-desktop card-work-4 card">
+              <img src="images/work4.jpg" width="369" height="252" alt="Placeholder Image">
+              <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
+              <div class="technology-holders-desktop technology-holders">
+                <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                <div class="technology-holder-desktop technology-holder">CSS</div>
+                <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                <div class="technology-holder-desktop technology-holder">HTML</div>
+              </div>
+              <div class="button-holder-desktop button-holder">
+                <a href="#" class="button-desktop button">See Project</a>
+          </div>
+        </div>
+            <div class="card-desktop card-work-5 card">
+                <img src="images/work5.jpg" width="369" height="252" alt="Placeholder Image">
+                <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
+                <div class="technology-holders-desktop technology-holders">
+                  <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                  <div class="technology-holder-desktop technology-holder">CSS</div>
+                  <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                  <div class="technology-holder-desktop technology-holder">HTML</div>
+                </div>
+                <div class="button-holder-desktop button-holder">
+                    <a href="#" class="button-desktop button">See Project</a>
+                </div>
+              </div>
+              <div class="card-desktop card-work-6 card">
+                <img src="images/work6.jpg" width="369" height="252" alt="Placeholder Image">
+                <h2 class="text-work">Multi-Post Stories<br>Gain+Glory</h2>
+                <div class="technology-holders-desktop technology-holders">
+                  <div class="technology-holder-desktop technology-holder">Ruby on Rails</div>
+                  <div class="technology-holder-desktop technology-holder">CSS</div>
+                  <div class="technology-holder-desktop technology-holder">JavaScript</div>
+                  <div class="technology-holder-desktop technology-holder">HTML</div>
+                </div>
+                <div class="button-holder-desktop button-holder">
+                     <a href="#" class="button-desktop button">See Project</a>
+                </div>
+              </div>
+          </div>
     </section>
-    <section class="frame-about">
-        <div>
-            <p class="frame3">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don't hesitate to contact me.
+    <section class="about-container-title">
+    <section class="figure-holder-1-desktop image">
+        <img class="figure1-desktop" src="images/figure1.svg" alt="Figure" width="288px" height="126px">
+    </section>
+
+    <section class="about-me-desktop about-frame">
+        <section>
+            
+        </section>
+        <section>
+            
+            <section class="frame3">
+                <section class="figures2-3">
+                    <img class="figure2" src="images/figure2-mobile.png" alt="Figure" width="90px" height="56.29px">
+            <section>
+                <div class="about-box about">
+                    <h2>About me</h2>
+                </div>
+            <p class="textaboutme-desktop ">
+                
+                I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br>
+                don’t hesitate to contact me.
+                
             </p>
-        </div>
+
+            </section>
+            <img class="figure1" src="images/figure1-mobile.svg" alt="Figure" width="68px" height="127px">
+            
+                 </section>
+        </section>
+        </section>
+        <section>
+            
+        </section>
     </section>
-    <section>
-        <img class="figure2" src="images/figure2.png" alt="Figure" width="90px" height="56.29px">
+
+    <section class="figure-holder-2-desktop">
+        <img class="figure2-desktop" src="images/figure2.png" alt="Figure" width="273px" height="245px">
     </section>
-    <section>
-        <div class="button-holder2">
-            <a href="#" class="button2">Get my resume</a>
-        </div>
     </section>
+    <div class="button-holder2-desktop button-holder2">
+        <a href="#" class="button2-desktop button2">Get my resume</a>
+    </div>
     <section>
-        <div class="card-about num1">
+    </section>
+    <section class="about-container-desktop">
+        <div class="card-about-desktop card-about num1">
             <img src="images/icon-languages.svg" alt="Logo">
-            <h2 class="txt">Languages</h2>
-            <ul class="stack">
-              <li class="items">JavaScript</li>
-              <li class="items">Ruby</li>
+            <h2 class="txt-desktop txt">Languages</h2>
+            <ul class="stack-desktop stack">
+              <li class="items-desktop items">JavaScript</li>
+              <li class="items-desktop items">Ruby</li>
+              <li class="items-desktop items">HTML</li>
+              <li class="items-desktop items">CSS</li>
             </ul>
-            <ul class="stack">
-              <li class="items">HTML</li>
-              <li class="items">CSS</li>
+
+        </div>
+          
+        <div class="card-about-desktop card-about num2">
+            <img src="images/icon-frameworks.svg" alt="Logo">
+            <h2 class="txt-desktop txt">Frameworks</h2>
+            <ul class="stack-desktop stack">
+              <li class="items-desktop items">React</li>
+              <li class="items-desktop items">Ruby on Rails</li>
+              <li class="items-desktop items">RSpec</li>
+            </ul>
+            <ul class="stack-desktop stack">
+              <li class="items-desktop items">Capybara</li>
             </ul>
         </div>
           
-        <div class="card-about num2">
-            <img src="images/icon-frameworks.svg" alt="Logo">
-            <h2 class="txt">Frameworks</h2>
-            <ul class="stack">
-              <li class="items">React</li>
-              <li class="items">Ruby on Rails</li>
-              <li class="items">RSpec</li>
-            </ul>
-            <ul class="stack">
-              <li class="items">Capybara</li>
-              <li class="items">Selenium</li>
-            </ul>
-          </div>S
-          
-          <div class="card-about num3">
+        <div class="card-about-desktop card-about num3">
             <img src="images/icon-skills.svg" alt="Logo">
-            <h2 class="txt">Skills</h2>
-            <ul class="stack">
-              <li class="items">Data Management</li>
-              <li class="items">Version Control</li>
+            <h2 class="txt-desktop txt">Skills</h2>
+            <ul class="stack-desktop stack">
+              <li class="items-desktop items">Data Management</li>
+              <li class="items-desktop items">Version Control</li>
             </ul>
-            <ul class="stack">
-              <li class="items">CLI</li>           
-              <li class="items">Web Development</li>
-              <li class="items">API Design</li>
+            <ul class="stack-desktop stack">
+              <li class="items-desktop items">CLI</li>           
+              <li class="items-desktop items">Web Development</li>
+              <li class="items-desktop items">API Design</li>
             </ul>
-          </div>
+        </div>
     </section>
+
     <section class="frame-regist">
         <div>
             <p class="frame4">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </p>
         </div>
     </section>
-    <section>
-        <img class="figure3" src="images/figure3.png" alt="Figure" width="65px" height="131px">
+    <section class="frame-regist-desktop">
+        <div class="frame-p-desktop">
+            <p>I'm always interested in hearing<br>about new projects, so if you'd<br>like to chat please get in touch.
+            </p>
+        </div>
+        <div>
+            <form class="frame-form-desktop" action="https://formspree.io/f/xdovbzev" method="post" >
+            <ul class="names-desktop">
+                <li>
+                    <input type="text" id="firstname-desktop" name="first name" placeholder="  First name..." maxlength="30" required>
+                </li>
+                <li>
+                    <input type="text" id="lastname-desktop" name="last name" placeholder="  Last name..." maxlength="30" required>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="email" id="email-desktop" name="email" placeholder="  Email address..." required>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <textarea id="comments-desktop" name="comments" placeholder="  Hey id'like to connect you..." maxlength="500" required></textarea>
+                </li>
+            </ul>
+           
+        </form>       
+        </div>
+</section>
+<form class="form-container" action="https://formspree.io/f/xdovbzev" method="post" >
+    <ul>
+        <li>
+            <input type="text" id="name" name="name" placeholder="Full name..." maxlength="30" required>
+        </li>
+        <li>
+            <input type="email" id="email" name="email" placeholder="Email address..." required>
+        </li>
+        <li>
+            <textarea id="comments" name="comments" placeholder="Hey id'like to connect you..." maxlength="500" required></textarea>
+        </li>
+    </ul>
+    <button class="send" type="submit">Get in touch</button>
+</form>
+<section class="email">
+    <div class="figure3-container">
+    
+    
+    <div class="figure3">
+        <img src="images/figure3-mobile.png" alt="Figure" width="65px" height="160px">
+    </div>
+    </div>
+</section>
+<a class="email" href="!">n3m3s15r4ptor@gmail.com</a>
+<section>
+    <div class="button-holder3-desktop">
+        <a href="#" class="button3-desktop" type="submit">Get in touch</a>
+    </div>
+</section>
+    <section class="figure-container-desktop">
+    <section class="figure-container-desktop1">
+
+        <section class="figure-holder-3-desktop">
+            <img class="figure3-desktop" src="images/figure3.png" alt="Figure" width="165px" height="300px">
+        </section>
+        <section class="figure-holder-4-desktop">
+            <img class="figure4-desktop" src="images/figure4.svg" alt="Figure" width="120px" height="120px">
+        </section>
     </section>
-    <form class="form-container" action="https://formspree.io/f/xdovbzev" method="post" >
-        <ul>
-            <li>
-                <input type="text" id="name" name="name" placeholder="Full name..." maxlength="30" required>
-            </li>
-            <li>
-                <input type="email" id="email" name="email" placeholder="Email address..." required>
-            </li>
-            <li>
-                <textarea id="comments" name="comments" placeholder="Hey id'like to connect you..." maxlength="500" required></textarea>
-            </li>
-        </ul>
-        <button class="send" type="submit">Get in touch</button>
-    </form>
-    <a class="email" href="!">n3m3s15r4ptor@gmail.com</a>
-    <div class="frame-social">
-        <ul class="social-media2">
+        <section class="figure-holder-5-desktop">
+            <img class="figure5-desktop" src="images/figure5.svg" alt="Figure">
+        </section>
+    </section>
+<!-- Redes sociales finales -->
+    <section class="frame-social">
+        <ul class="social-media-desktop social2-desktop social-media2">
             <li>
                 <a href="!">
                     <img src="images/twitter.svg" alt="Twitter icon to be in contact">
@@ -280,6 +361,8 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </section>
+</div>
 </body>
+
 </html>
